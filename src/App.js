@@ -2,12 +2,14 @@
 // import Navbar from './Navbar'
 // import Header from './Header'
 // import StateProps from './StateProps'
-import  Map from './Map'
+// import  Map from './Map'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CRUD from './CRUD'
 function App() {
   return (
     <div className="App">
-      <Map />
+      <CRUD />
       {/* <StateProps /> */}
       {/* <Header />
       <Navbar />
