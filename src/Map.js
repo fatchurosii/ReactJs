@@ -27,6 +27,16 @@ const Map = () => {
                <li>{index+1} Nama = {Makanan.nama} -  Harga = {Makanan.harga}</li>
            ))}
            </ul>
+           
+           {/* filter */}
+           <h2>Map with Filter</h2>
+           <ul>
+           {Makanans
+           .filter((Makanan)=> Makanan.harga >= 10000)
+           .map((Makanan, index) => (
+               <li>{index+1} Nama = {Makanan.nama} -  Harga = {Makanan.harga}</li>
+           ))}
+           </ul>
         </div>
     )
 }
